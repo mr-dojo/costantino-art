@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Costantino Artist Studio</title>
+  <meta name="description" content="Costantino Artist Studio. The family of artists. Coming soon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #1c1712;
+      --ink: #f4ebe0;
+      --muted: #c4b6a4;
+      --line: rgba(244, 235, 224, 0.22);
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:
+        radial-gradient(1200px 700px at 50% 0%, #2a221b 0%, var(--bg) 55%);
+      color: var(--ink);
+      font-family: Outfit, system-ui, sans-serif;
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+    }
+    main { max-width: 36rem; }
+    p.kicker {
+      margin: 0 0 1.1rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      font-weight: 400;
+      color: var(--muted);
+    }
+    h1 {
+      margin: 0;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(2.4rem, 8vw, 4.1rem);
+      font-weight: 500;
+      line-height: 1.05;
+      letter-spacing: 0.01em;
+    }
+    p.tagline {
+      margin: 1.35rem 0 0;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(1.15rem, 3.4vw, 1.45rem);
+      font-style: italic;
+      font-weight: 500;
+      color: var(--ink);
+    }
+    hr {
+      width: 3.5rem;
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 2rem auto;
+    }
+    p.soon {
+      margin: 0;
+      letter-spacing: 0.34em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--muted);
+    }
+    p.place {
+      margin: 1.6rem 0 0;
+      font-size: 0.8rem;
+      font-weight: 300;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="kicker">The family of artists</p>
+    <h1>Costantino Artist Studio</h1>
+    <p class="tagline">We Playfully Dance Together on the Canvas</p>
+    <hr>
+    <p class="soon">Coming soon</p>
+    <p class="place">Lahaina, Maui</p>
+  </main>
+</body>
+</html>
